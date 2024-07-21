@@ -27,3 +27,19 @@
   font-weight: 700;
   font-style: normal;
 }
+
+:root {
+  /* COLOR */
+  --clr-title: 292 42% 14%;
+  --clr-body: 292 16% 49%;
+  --clr-bg: 275 100% 97%;
+  --clr-white: 0 0% 100%;
+
+  /* FONT FAMILY */
+  --ff-work-sans: "Work Sans", sans-serif;
+
+  /* FONT WEIGHT */
+  --fw-normal: 400;
+  --fw-semibold: 600;
+  --fw-bold: 700;
+}
