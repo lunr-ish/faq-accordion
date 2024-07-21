@@ -137,3 +137,31 @@ body::before {
     margin-top: 9rem;
   }
 }
+
+/* CARD HEADER */
+
+.card__header {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.img-wrapper-star {
+  max-width: 1.375rem;
+}
+
+.card__title {
+  font-size: 2rem;
+  font-weight: var(--fw-bold);
+  color: hsl(var(--clr-title));
+}
+
+@media (min-width: 40rem) {
+  .img-wrapper-star {
+    max-width: 100%;
+  }
+
+  .card__title {
+    font-size: 3.5rem;
+  }
+}
