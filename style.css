@@ -118,3 +118,22 @@ body::before {
     max-height: 20rem;
   }
 }
+
+/* CARD */
+
+.card {
+  max-width: 37.5rem;
+  background: hsl(var(--clr-white));
+  border-radius: 0.5rem;
+  margin-top: 7.438rem;
+  padding: 1.5rem;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+}
+
+@media (min-width: 40rem) {
+  .card {
+    padding: 2.5rem;
+    border-radius: 1rem;
+    margin-top: 9rem;
+  }
+}
