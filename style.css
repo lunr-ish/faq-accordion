@@ -1,6 +1,6 @@
 /* For the variable font */
 @font-face {
-  font-family: "WorkSans";
+  font-family: "Work Sans";
   src: url("./assets/fonts/WorkSans-VariableFont_wght.ttf")
     format("truetype-variations");
   font-weight: 100 900;
@@ -8,21 +8,21 @@
 
 /* For the static font */
 @font-face {
-  font-family: "WorkSans";
+  font-family: "Work Sans";
   src: url("./assets/fonts/static/WorkSans-Regular.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "WorkSans";
+  font-family: "Work Sans";
   src: url("./assets/fonts/static/WorkSans-SemiBold.ttf") format("truetype");
   font-weight: 600;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "WorkSans";
+  font-family: "Work Sans";
   src: url("./assets/fonts/static/WorkSans-Bold.ttf") format("truetype");
   font-weight: 700;
   font-style: normal;
