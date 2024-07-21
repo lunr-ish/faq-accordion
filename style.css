@@ -165,3 +165,56 @@ body::before {
     font-size: 3.5rem;
   }
 }
+
+/* CARD BODY */
+
+.card__body {
+  margin-top: 1.5rem;
+}
+
+.card__faq-title {
+  font-weight: var(--fw-semibold);
+  margin-top: 2.5rem;
+}
+
+.card__faq-title:first-child {
+  margin-top: 0;
+}
+
+.card__faq-header {
+  width: 100%;
+  color: hsl(var(--clr-title));
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  transition-duration: 200ms;
+}
+
+.card__faq-header:is(:hover, :focus-visible) {
+  color: hsl(var(--clr-accent));
+}
+
+.card__faq-panel {
+  font-size: 0.875rem;
+  margin-top: 1.5rem;
+  line-height: 1.5;
+}
+
+@media (min-width: 40rem) {
+  .card__body {
+    margin-top: 2rem;
+  }
+
+  .card__faq-title {
+    margin-top: 3rem;
+  }
+
+  .card__faq-header {
+    font-size: 1.125rem;
+  }
+
+  .card__faq-panel {
+    font-size: 1rem;
+  }
+}
